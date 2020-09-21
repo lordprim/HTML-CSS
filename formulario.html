@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #menu .m{
+            display: inline;
+            padding: 10px 30px;
+            color: #2F7665;
+            font-size: 20px;
+        }
+        #menu ul{
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+        #menu ul li{
+            display: inline;
+        }
+        #menu ul li a{
+            padding: 10px 30px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            font-size: 18px;
+            z-index: 2;
+        }
+        #menu ul li a:hover{
+            color: #2F7665;
+        }
+        #contact{
+            text-align: center;
+            margin-top: 3%;
+            font: normal bold 13px/13px new roman, serif;
+        }
+        #first-name input{
+            border: none;
+            border-bottom: 1px solid;
+            left: 15%;
+            top: 25%;
+            position: fixed;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #last-name input{
+            border: none;
+            border-bottom: 1px solid;
+            left: 50%;
+            top: 25%;
+            display: inline-block;
+            position: fixed;
+            font-size: 15px;
+        }
+        #email input{
+            border: none;
+            border-bottom: 1px solid;
+            left: 15%;
+            top: 35%;
+            display: inline-block;
+            position: fixed;
+            font-size: 15px;
+        }
+        #titulo input{
+            border: none;
+            border-bottom: 1px solid;
+            left: 15%;
+            top: 45%;
+            display: inline-block;
+            position: fixed;
+            font-size: 15px;
+        }
+        #mensagem textarea{
+            border: none;
+            left: 15%;
+            top: 55%;
+            display: inline-block;
+            position: fixed;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+        <div id = "menu">
+            <ul>
+                <li><a href="principal.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="principal.html" class="m">Me.</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Client</a></li>
+                <li><a href="formulario.html" class="m">Contact</a></li>
+            </ul>
+        </div>
+        <div id = "contact">
+            <h1>Contact Form</h1>
+        </div>
+        <div id = "first-name">
+            <input placeholder="First Name" type="text" size="50%"/>
+        </div>
+        <div id = "last-name">
+            <input placeholder="Last Name" type="text" size="50%"/>
+        </div>
+        <div id = "email">
+            <input placeholder="Email address" type="text" size="110%" />
+        </div>
+        <div id = "titulo">
+            <input placeholder="Subject of the message" type="text" size="110%"/>
+        </div>
+        <div id = "mensagem">
+            <textarea name="text" rows="10" cols="100" maxlength="100" placeholder="Type your message here..."></textarea>
+        </div>
+</body>
+</html>

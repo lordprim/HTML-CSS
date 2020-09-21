@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #picture img{
+            width: 550px;
+            height: 650px;
+            position: fixed;
+            top: -15px;
+            right: 20px;
+            z-index: 1;
+        }
+        #menu .m{
+            display: inline;
+            padding: 10px 30px;
+            color: #2F7665;
+            font-size: 20px;
+        }
+        #menu ul{
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+        #menu ul li{
+            display: inline;
+        }
+        #menu ul li a{
+            padding: 10px 30px;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            font-size: 18px;
+            z-index: 2;
+        }
+        #menu ul li a:hover{
+            color: #2F7665;
+        }
+        #information{
+            position: absolute;
+            top: 40%;
+            bottom: 40%;
+            left: 20%;
+            right: 20%;
+            line-height: 10px;
+            margin: auto;
+        }
+        #information h1{
+            font: normal bold 30px/30px new roman, serif;
+            line-height: 10px;
+            font-size: 28px;
+        }
+        #information p{
+            font-weight: bold;
+        }
+        #information button{
+            background: #2F7665;
+            border-radius: 25px;
+            padding: 8px 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+        <div id = "menu">
+            <ul>
+                <li><a href="principal.html" class="m">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="principal.html" class="m">Me.</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Client</a></li>
+                <li><a href="formulario.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id = "picture">
+            <img src="https://i.ibb.co/sjqhmSQ/happy-young-man-with-laptop.jpg" alt="Developer">
+        </div>
+        <div id = "information">
+            <h1>I'm Vitor Prim</h1>
+            <p>I'm Web Developer Based on SA</p>
+            <a href="aboutme.html"><button>Portfolio</button></a>
+        </div>
+</body>
+</html>
